@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Doalto - Opinião</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="container">
+      <header>Doalto Energy Food</header>
+      <form action="https://api.sheetmonkey.io/form/mmqEyDooVjqGq7PwMqKzDP" class="form" method="post">
+        <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="input-box">
+                    <label>Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" name="Nome" required/>
+          
+                    <label>Telefone:</label>
+                    <input type="tel" pattern="\[0-9]{2}\ [9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx) 9xxxx-xxxx"  name="Telefone" required/>
+                  </div>
+            </fieldset>
+
+        <fieldset>
+                <legend>Sobre sua experiência</legend>
+                <div class="row">
+                    <label for="sobre">Qual seu grau de satisfação?</label>
+                </div>
+                  <div>
+                    <input type="radio" id="radio" name="Grau de satisfação" 
+                    value="Péssimo">
+                    <label>Péssimo</label>
+                  </div>                
+                    <div>
+                      <input type="radio" id="radio" name="Grau de satisfação" value="Ruim">
+                      <label>Ruim</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="radio" name="Grau de satisfação" 
+                      value="Bom">
+                      <label>Bom</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="radio" name="Grau de satisfação" value="Ótimo" checked>
+                      <label>Ótimo</label>
+                    </div>
+                <div class="row">
+                    <label>&nbsp;
+                            &nbsp;
+                            &nbsp;
+                            &nbsp;                                                      
+                            Opinião:</label>
+                </div>
+                <div class="row">
+                    <textarea name="Opinião" id="opinião" cols="30" rows="5" placeholder="Se sentiu insatisfeito com algo? "
+                        autocomplete="off"></textarea>
+                </div> 
+            </fieldset>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
