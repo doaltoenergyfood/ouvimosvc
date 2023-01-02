@@ -99,11 +99,11 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: rgb(130, 106, 251);
+  background: rgb(180, 43, 150);
 }
 
 .form button:hover {
-  background: rgb(88, 56, 250);
+  background: rgb(180, 43, 150);
 }
 
 /*Responsive*/
