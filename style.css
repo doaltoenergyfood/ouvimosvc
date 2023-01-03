@@ -133,11 +133,17 @@ textarea {
     }
 
 }
+@media screen and (max-width: 360px) {
+  
+  .date{
+    margin-left: 5px;
+  }
 
+}
 @media screen and (max-width: 330px) {
   
   .date{
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
 }
