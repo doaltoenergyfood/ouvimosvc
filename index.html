@@ -53,15 +53,15 @@
                         autocomplete="off">
                     </textarea>
 
-                    <input type="date" id="date" name="date" value="" class="date" readonly>
-                    <input type="time" id="time" name="time" value="" class="date" readonly>
+                    <input type="date" id="data" name="data" value="" class="date" readonly>
+                    <input type="time" id="hora" name="hora" value="" class="time"  readonly>
                 </div> 
             </fieldset>
 
         <script>
 
           // data
-          const input = document.querySelector('#date');
+          const input = document.querySelector('#data');
           const now = new Date();
           input.value = now.toISOString().slice(0, 10);
           
@@ -74,7 +74,7 @@
           currentMinutes = "0" + currentMinutes;
           }
           var currentTimeString = currentHours + ":" + currentMinutes;
-          document.getElementById('time').value = currentTimeString;
+          document.getElementById('hora').value = currentTimeString;
 
         </script>
 
