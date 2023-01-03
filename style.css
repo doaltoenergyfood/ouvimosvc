@@ -104,8 +104,8 @@ textarea {
 }
 
 .date{
-  margin-left: 180px;
-  
+  margin-left: 150px;
+  width: 115px; 
 }
 
 .form button:hover {
@@ -129,7 +129,7 @@ textarea {
         
     }
     .date{
-      margin-left: 30px;
+      margin-left: 20px;
     }
 
 }
