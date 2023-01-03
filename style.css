@@ -105,11 +105,9 @@ textarea {
 
 .date{
   margin-left: 180px;
-  border: none;
+  
 }
-.time{
-  border: none;
-}
+
 .form button:hover {
   background: rgb(180, 43, 150);
 }
