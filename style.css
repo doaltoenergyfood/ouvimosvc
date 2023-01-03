@@ -15,7 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgb(180, 43, 150);
+  background: linear-gradient(0deg, rgb(95, 23, 189) 20%, rgb(180, 43, 150) );
 }
 
 .container {
@@ -53,10 +53,11 @@ fieldset {
 }
 
 legend {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+  }
 
 textarea {
     padding: 10px;
@@ -99,7 +100,11 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: rgb(180, 43, 150);
+  background: rgb(95, 23, 189);
+}
+
+.date{
+  margin-left: 200px;
 }
 
 .form button:hover {
@@ -121,6 +126,9 @@ textarea {
     .container {
         margin: 10px 0px 75px 0px;
         
+    }
+    .date{
+      margin-left: 30px;
     }
 
 }

@@ -50,9 +50,33 @@
                 </div>
                 <div class="row">
                     <textarea name="Opinião" id="opinião" cols="30" rows="5" placeholder="Pontos positivos ou negativos que queira destacar "
-                        autocomplete="off"></textarea>
+                        autocomplete="off">
+                    </textarea>
+
+                    <input type="date" id="date" name="date" value="" class="date" readonly>
+                    <input type="time" id="time" name="time" value="" readonly>
                 </div> 
             </fieldset>
+
+        <script>
+
+          // data
+          const input = document.querySelector('#date');
+          const now = new Date();
+          input.value = now.toISOString().slice(0, 10);
+          
+          // hora
+          var currentTime = new Date();
+          var currentHours = currentTime.getHours();
+          var currentMinutes = currentTime.getMinutes();
+
+          if (currentMinutes < 10) {
+          currentMinutes = "0" + currentMinutes;
+          }
+          var currentTimeString = currentHours + ":" + currentMinutes;
+          document.getElementById('time').value = currentTimeString;
+
+        </script>
 
         <button type="submit">Enviar</button>
       </form>
