@@ -103,9 +103,12 @@ textarea {
   background: rgb(95, 23, 189);
 }
 
-.date{
-  margin-left: 150px;
-  width: 115px; 
+.date{ 
+  border: none;
+}
+
+.time{
+  border: none;
 }
 
 .form button:hover {
@@ -128,22 +131,5 @@ textarea {
         margin: 10px 0px 75px 0px;
         
     }
-    .date{
-      margin-left: 20px;
-    }
-
-}
-@media screen and (max-width: 360px) {
-  
-  .date{
-    margin-left: 5px;
-  }
-
-}
-@media screen and (max-width: 330px) {
-  
-  .date{
-    margin-left: 5px;
-  }
 
 }
