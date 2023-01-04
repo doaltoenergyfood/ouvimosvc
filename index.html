@@ -79,6 +79,18 @@
           document.getElementById('hora').value = currentTimeString;
 
         </script>
+        <script>
+          // Obtém a data atual
+          var dataAtual = new Date();
+        
+          // Formata a data no formato dd/mm/yyyy
+          var dataFormatada = dataAtual.getDate() + '/' + (dataAtual.getMonth()+1) + '/' + dataAtual.getFullYear();
+        
+          // Atribui a data atual ao campo de data
+          document.getElementById('data').value = dataFormatada;
+        </script>
+        
+        <input type="date" id="data" name="data" value="" class="date" readonly>
 
         <button type="submit">Enviar</button>
       </form>
